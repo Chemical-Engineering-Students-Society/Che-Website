@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Department of Chemical Engineering, IIT Rookee</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <Link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63Q5V20FW2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-63Q5V20FW2');
+	</script>
+    <script>
+        // Function to load HTML content from file and inject into specified element
+        function includeHTML(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(elementId).innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+        // Load footer.html into footer element
+        includeHTML('header.html', 'header');
+        includeHTML('footer.html', 'footer');
+    </script> 
+</head>
+
+<body>
+    <header class="main-header" id="header"></header>
+    <!-- hero section -->
+    <div class="container">
+        <div class="bg-white">
+            <section class="hero-section">
+                <div class="owl-carousel hero-slider owl-theme">
+					<div class="item">
+                            <div class='ResponsiveYTPlayer'>
+								<!-- <a href="research-areas.html">
+                                <video id="video_background" preload="auto" autoplay playsinline loop="loop" muted="muted" controls height="362px">
+                                    <source src="assets/images/bannervideo/know_more.mp4" type="video/mp4">
+                                    Video not supported
+                                </video>
+								</a> -->
+                            </div>
+                    </div>
+                    <div class="item">
+                            <!-- <div class='ResponsiveYTPlayer'>
+                                <video id="video_background" preload="auto" autoplay playsinline loop="loop" muted="muted" controls height="362px">
+                                    <source src="assets/images/bannervideo/Classof2024_banner.mp4" type="video/mp4">
+                                    Video not supported
+                                </video>
+                            </div> -->
+                    </div>
+                    
+					<!--
+					<div class="item">
+                        <img src="./assets/images/banner/banner8.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/banner/banner2.png" />
+                    </div> 
+					-->					
+                </div>
+                <marquee class="marquee_wrap" direction="left" behavior="scroll">
+                    <p>
+						<a href="https://twitter.com/cheme_iitr"  target="_blank">Follow @cheme_iitr on Twitter for latest updates</a>
+                        <a href="https://iitr.ac.in/dora/givingback/department-of-che-engg"  target="_blank">Join us in propelling our department to new heights—donate today and be a part of the next chapter in our legacy!!</a>
+                        <a href="newsletters/2023V2/index.html"  target="_blank">ChE Newsletter Dec 2023 - Vol 2, Issue 2</a>
+                        <!--<a href="https://www.iitr.ac.in/new/alma-mater-to-establish-endowed-programs"  target="_blank">Alumnus Dr. Rajeev Gautam Donates USD 250,000 to Establish Endowed Programs in the Department of Chemical Engineering, IIT Roorkee</a> -->						
+                    </p> 
+                </marquee>
+            </section>
+            <section class="body-content p-3">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Message from Head</span>
+                                </h3>
+                                <div class="card_body">
+                                    <div class="message_head">
+                                        <p class="clearfix">
+                                            <a href="head_message.html">
+											<span class="float-start me-3">
+                                                <img src="assets/images/pbiswas.jpeg" width="95px" height="95px"
+                                                    alt="Dr Prakash Biswas" class="img-fluid mb-1">
+                                                <span class="auth-name">Prakash Biswas <br> Professor & HOD</span>
+                                            </span>
+											</a>
+                                            Welcome to the Department of
+                                            Chemical Engineering (ChE) at IIT Roorkee. 
+
+                                        </p>
+                                        <!-- <ul class="custom_link">
+                                            <li><a href="#">U. G. Programme</a></li>
+                                            <li><a href="#">P. G. Programme</a></li>
+                                            <li><a href="#">Ph.D Admission Information</a></li>
+                                            <li><a href="#">Prospective Faculty</a></li>
+                                            <li><a href="#">Post-Doctoral Vacancies</a></li>
+                                            <li><a href="#">Project Positions</a></li>
+										</ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>News</span>
+                                </h3>
+                                <div class="owl-carousel news-slider">
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="card_footer">
+                                <a href="news.html" class="text-button">View all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Events</span>
+                                </h3>
+                                <div class="owl-carousel events-slider">																			
+									<!-- <a href="cvs.html"  class="card_body d-block">
+                                        <img src="assets/images/events/event14.png" class="img-fluid" />
+                                        <span class="event-date small"><i class="fa fa-calendar-alt me-2"></i></i>10<sup>th</sup>
+										May 2024, 09:15 AM</span>
+                                        <h5 class="events-title"><b>C.V. Seshadri Distinguished Lecture 2024</b><br><b>Talk Title:</b>
+										Understanding CO<sub>2</sub> Capture, Utilization and Sequestration (CCUS) from a Sustainability Viewpoint
+										<br><b>Abstract</b> - Global CO<sub>2</sub> emission has touched ~40 billion tons of carbon dioxide per year, and despite 
+										all the talk about net zero CO<sub>2</sub> emission, the rate of CO<sub>2</sub> emission is expected to stay at the current level for few more years. 
+										While role of solar, wind, hydro/waves, hydrogen etc (perhaps nuclear as well)..</h5>
+                                    </a>																			
+									<a href="rsd.html"  class="card_body d-block">
+                                        <img src="assets/images/events/event15.png" class="img-fluid" />
+                                        <span class="event-date small"><i class="fa fa-calendar-alt me-2"></i></i>10<sup>th</sup>
+										May 2024, 10:15 AM</span>
+                                        <h5 class="events-title"><b>Research Scholars’ Day 2024</b><br>
+										Research Scholar Day is a yearly one-day event, which showcases the original research of graduate students in the 
+										chemical engineering department. The purpose of this symposium is to facilitate scientific discussion, foster 
+										student-faculty interactions, and provide a platform for students to present their work to a wider audience. 
+										Eminent researchers are invited to deliver lectures every year as part of the plenary talks for the research scholar.
+										</h5>
+                                    </a> -->
+									<!--	
+									<a href="#"   target="_blank" class="card_body d-block">
+                                            <video preload="auto" autoplay playsinline loop="loop" muted="muted" controls class="responsive-video">
+                                                <source src="./assets/images/events/farewell_2024.mp4" type="video/mp4">
+                                                Video not supported
+                                            </video>
+                                            <span class="event-date small"><i class="fa fa-calendar-alt me-2"></i></i>08<sup>th</sup>April 2024</span>
+                                            <h5 class="events-title"><b>🎓🎉 Farewell, class of 2024! 🎉🎓</b><br>
+											Join us in reminiscing about your journey at IIT Roorkee & to connect with fellow batchmates, professors, and forge long lasting friendships and professional connections.
+											We look forward to welcoming you for an evening of joy, camaraderie, and cherished memories. Let's make this farewell an event to remember!<br>📅 Date: April 8, 2024<br>
+											🕙 Time: 6:30 PM onwards<br>📍 Venue: Outreach Lawn</h5>
+                                    </a>																			
+									<a href="https://sites.google.com/view/bloodflow-workshop-iitr"  target="_blank" class="card_body d-block">
+                                        <img src="./assets/images/events/event13.png" class="img-fluid" />
+                                        <span class="event-date small"><i class="fa fa-calendar-alt me-2"></i></i>20-23<sup>rd</sup>
+										March 2024</span>
+                                        <h5 class="events-title"><b>Computational Approaches for Blood Flow in Arterial Networks - CABFAN 2024</b><br>
+										Join us at CABFAN 2024 Workshop! Explore the cutting-edge Computational Approaches for Blood Flow in Arterial Networks. 
+										🌟 Learn about continuum & mesoscale modeling techniques, hands-on CFD simulations, and advancements in blood rheology. 
+										Perfect for engineering & science enthusiasts. Elevate your skills in patient-specific blood flow simulations!
+										</h5>
+                                    </a>							
+									<a href="https://chemineerssocietyiitr.github.io/Exergy2024/"  target="_blank" class="card_body d-block">
+                                        <img src="./assets/images/events/event12.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i></i>02<sup>nd</sup>March 2024</span>
+                                        <h5 class="events-title"><b>We cordially invite you to the Inauguration of EXERGY'24</b><br>
+										EXERGY'24 is a second edition of nationwide Chemical Engineering festival in India organised by Chemineers Society, IIT Roorkee, where the concept of
+										Exergy extends beyond thermodynamics to symbolize the realization of our full potential as Chemical Engineering students. 										
+										</h5>
+                                    </a>									
+									<a href="https://unstop.com/competitions/cipher-exergy-2024-iit-Roorkee-882040"  target="_blank" class="card_body d-block">
+                                        <img src="./assets/images/events/event11.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i></i>02<sup>nd</sup>March 2024</span>
+                                        <h5 class="events-title"><b>Cipher (EXERGY'24)</b><br>
+										As the name suggests, it is an Exergy Cipher, you need to encode (google around) the snippets and collect information 
+										in this case, find the logic, get to the answer, and submit it.<br>
+										You will get a lot of questions all at once, most of which will be based on books, movies, and other forms of media. 										
+										</h5>
+                                    </a>
+									<a href="https://unstop.com/competitions/optimisation-exergy-2024-iit-Roorkee-872244"  target="_blank" class="card_body d-block">
+                                        <img src="./assets/images/events/event10.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i></i>02<sup>nd</sup>March 2024</span>
+                                        <h5 class="events-title"><b>Optimisation (EXERGY'24)</b><br>
+										Optimisation is a competition organized by the Chemineers Society as part of its annual Chemical Engineering Fest EXERGY. 
+										It comprises a variety of mathematical and logical optimization tasks pertaining either to the general domain or chemical 
+										engineering and allied subjects.
+										</h5>
+                                    </a>
+									<a href="https://unstop.com/competitions/cheme-startup-pitch-exergy-2024-iit-Roorkee-872769"  target="_blank" class="card_body d-block">
+                                        <img src="./assets/images/events/event9.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i></i>02<sup>nd</sup>March 2024</span>
+                                        <h5 class="events-title"><b>ChemE Startup Pitch (EXERGY'24)</b><br>
+										We're calling on all aspiring chemical engineers and innovators to showcase their problem-solving prowess. 
+										If you have a brilliant idea that leverages chemical engineering knowledge to address a pressing issue, 
+										this is your chance to shine.
+										</h5>
+                                    </a>
+									<a href="https://unstop.com/competitions/optimisation-exergy-2024-iit-Roorkee-869781"  target="_blank" class="card_body d-block">
+                                        <img src="./assets/images/events/event8.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i></i>02<sup>nd</sup>March 2024</span>
+                                        <h5 class="events-title"><b>Case Study Challenge (EXERGY'24)</b><br>
+										A flagship competition organized by the Chemineers Society, is set to unfold as a pivotal 
+										event during the annual Chemical Engineering Fest, EXERGY, at IIT Roorkee. This dynamic 
+										competition invites participants to engage with a statement related to chemical engineering,
+										where they will not only craft a..</h5>
+                                    </a>
+									<a href="https://nptel.ac.in/courses/103104129"   target="_blank" class="card_body d-block">
+                                            <video preload="auto" autoplay playsinline loop="loop" muted="muted" controls class="responsive-video">
+                                                <source src="./assets/images/events/events_video.mp4" type="video/mp4">
+                                                Video not supported
+                                            </video>
+                                            <span class="event-date small"><i
+                                                    class="fa fa-calendar-alt me-2"></i>Jan-Mar 2024</span>
+                                            <h5 class="events-title"><b>NOC:Thermodynamics Of Fluid Phase Equilibria course by Prof. Jayant K. Singh @nptel</b><br>
+											The goal of this course to introduce molecular thermodynamics as a practical tool for engineering
+											applications. In particular, the course would present the first year graduate student or senior
+											undergraduate student a broad introduction to the thermodynamics of..</h5>
+                                    </a>								
+									<a href="#" class="card_body d-block">
+                                        <img src="./assets/images/events/event7.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i></i>03<sup>rd</sup> February 2024</span>
+                                        <h5 class="events-title"><b>Happy Hour</b><br>
+										Chemineers Society brings back our traditional event, "Happy Hour," an informal interactive 
+										session between professors and students. This is a great chance to have an informal interaction 
+										on countless topics with your department community, be it students (seniors/juniors/colleagues) 
+										or professors.<br>
+										Mark your calendars!!<br>
+										Hope to see you all in large numbers.</h5>
+                                    </a>
+									<a href="./petrotel.html" class="card_body d-block">
+                                        <img src="./assets/images/news/news17.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i>19<sup>th</sup>January 2024</span>
+                                        <h5 class="events-title"><b>PetroTel Distinguished Lecture</b><br><b>Talk Title:</b>
+										"Using Molecular Dynamics  to Understand Interactions of Molecules with the Bacterial Cell Envelope"
+										<br><b>Abstract</b> - With rising bacterial resistance there is a dire need to develop a molecular understanding of the interactions of antimicrobial molecules 
+										with the complex topology of the bacterial cell envelope..</h5>
+                                    </a>
+                                    <div class="card_body">
+                                        <img src="./assets/images/events/event4.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i>09<sup>th</sup> October 2023</span>
+                                        <h5 class="events-title">Short Course on Surface Area and Porous Material
+                                            Characterisation</h5>
+                                        <p>This full day course will cover a range of topics from basics of surface area
+                                            measurement till correlation of
+                                            data for actual applicability in terms of dissolution rates, reactivity,
+                                            catalytic activity and disintegration..</p>
+                                    </div>
+                                    <div class="card_body">
+                                        <img src="./assets/images/events/event3.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i>04<sup>th</sup> September
+                                            2023</span>
+                                        <h5 class="events-title">Jeet Bindra Distinguished Lecture 2023<br>Talk Title:
+                                            "Relevance of iitr ChE education in future life"</h5>
+                                        <p>The Jeet Bindra lecture series has been recently introduced by the department
+                                            to disseminate knowledge, foster intellectual growth, and ignite
+                                            transformative ideas.</p>
+                                    </div>
+                                    <div class="card_body">
+                                        <img src="./assets/images/events/event1.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i>27<sup>th</sup> to
+                                            29<sup>th</sup> July 2023</span>
+                                        <h5 class="events-title">Short Course on Fundamentals and Practical Application
+                                            of Complex Fluids</h5>
+                                        <p>The program comprises of a series of lectures tailor-made to cover with
+                                            sufficient focus the fundamentals and real-world applications of complex
+                                            fluids and interfacial science.</p>
+                                    </div>
+                                    <div class="card_body">
+                                        <img src="./assets/images/events/event2.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i>17<sup>th</sup>-21<sup>st</sup>
+                                            July 2023</span>
+                                        <h5 class="events-title">IIT Roorkee Summer School on Hydrodynamic Instabilities:
+                                            Theory and Practice</h5>
+                                        <p> This summer course aims to introduce the participants to the concepts,
+                                            methods, and tools of hydrodynamic stability and will prepare them to
+                                            successfully tackle problems in this area using both analytical and
+                                            computational techniques.</p>
+                                    </div>
+                                    <div class="card_body">
+                                        <img src="./assets/images/events/event5.png" class="img-fluid" />
+                                        <span class="event-date small"><i
+                                                class="fa fa-calendar-alt me-2"></i>08<sup>th</sup>
+                                            April 2023</span>
+                                        <h5 class="events-title">Research Scholar's Day 2023</h5>
+                                        <p> Research Scholar Day is a yearly one-day event, which showcases the original
+                                            research of graduate students in the chemical engineering department. The
+                                            purpose
+                                            of this symposium is to facilitate scientific discussion..</p>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="card_footer">
+                                <a href="events.html" class="text-button">View all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Research Highlights</span>
+                                </h3>
+                                <div class="owl-carousel research-slider">
+                                    <div class="card_body">
+                                        <!-- <img src="assets/images/research/research24.png" class="img-fluid" />
+                                        <h5 class="events-title">Enhancement of the Rate of Surface Reactions 
+										by the Elastocapillary Effect</h5>
+                                        <a href="https://doi.org/10.1021/acs.langmuir.3c02381" target="_blank"
+                                            class="text-button custom_badge">Click here to read more</a> -->
+                                    </div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>UPCOMING/RECENT SEMINARS</span>
+                                </h3>
+                                <div class="card_body custom-list">
+                                    <div class="event-small-list">
+                                        <!-- <p>
+                                            <strong>Speaker: Prof. K. Ganapathy Ayappa</strong><br>
+                                            <strong>Affiliation:</strong> Professor, Department of Chemical Engineering,
+											Indian Institute of Science Bangalore, Bangalore 560012, India<br>
+                                            <strong>Title:</strong> Using Molecular Dynamics  to Understand Interactions 
+											of Molecules with the  Bacterial Cell Envelope<br>
+                                            <strong>Date:</strong> January 19, 2024<br>
+                                            <strong>Venue:</strong> Outreach Auditorium
+                                        </p> -->
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb-3">
+                        <div class="custom_card">
+                            <h3 class="custom-card__title">
+                                <span>Research Areas</span>
+                            </h3>
+                            <div class="card_body">
+                                
+                                   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Related Links</span>
+                                </h3>
+                                <div class="card_body custom-list">
+                                    <div class="event-link-list">
+                                        <ul>
+                                            <li>
+                                                <h5 style="font-size: 15px;margin-bottom: 10px;">Department Events</h5>
+                                                <ol>
+                                                    <!-- <li><a href="petrotel.html">Petrotel Distinguished Lecture Series</a></li>
+                                                    <li><a href="cvs.html">C.V. Seshadri Memorial Distinguished Lecture Series</a></li>
+                                                    <li><a href="bindra.html">Jeet Bindra Lecture Series</a></li>
+                                                    <li><a href="rsd.html">Research Scholar's Day</a></li> -->
+                                                </ol>
+                                            </li>
+                                            <li><a href="alumni.html">Alumni</a></li>
+                                            <li><a href="newsletter.html">ChE Newsletter</a></li>
+                                            <li><a href="ChE%20Brochure%202022.pdf" target="_blank">ChE Brochure</a></li>											
+											<li><a href="Flyer_rev.pdf" target="_blank">Information for Prospective Faculty</a></li>											
+											<li><a href="media-coverage.html">Department Media Coverage</a></li> 
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Social Media News Feed</span>
+                                </h3>
+                                <div class="card_body custom-list">
+                                    <!-- <a href="https://www.facebook.com/cheiitr" target="_blank"
+                                        class="fb-share-button mb-2">
+                                        <svg viewBox="0 0 12 12" preserveAspectRatio="xMidYMid meet">
+                                            <path class="svg-icon-path"
+                                                d="M9.1,0.1V2H8C7.6,2,7.3,2.1,7.1,2.3C7,2.4,6.9,2.7,6.9,3v1.4H9L8.8,6.5H6.9V12H4.7V6.5H2.9V4.4h1.8V2.8 c0-0.9,0.3-1.6,0.7-2.1C6,0.2,6.6,0,7.5,0C8.2,0,8.7,0,9.1,0.1z">
+                                            </path>
+                                        </svg>
+                                        <span>Facebook Account</span>
+                                    </a> -->
+                                    <!-- <a href="https://www.linkedin.com/company/che-iitr" target="_blank" class="linkedin-btn">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span>Linkedin</span>
+                                    </a> -->
+                                    <a class="twitter-timeline" data-height="315"
+                                        href="https://twitter.com/cheiitr">Tweets by
+                                        cheiitr</a>
+                                    <script async src="https://platform.twitter.com/widgets.js"
+                                        charset="utf-8"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Photo Gallery</span>
+                                </h3>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7 mb-3">
+                        <div class="custom_card">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3 mb-lg-0">
+                                    <img src="assets/images/res/dept_che_iitr.jpeg" alt="" class="img-fluid me-0"
+                                        style="padding: 12px; border-radius: 6px;" />
+                                </div>
+                                <div class="col-lg-7">
+                                    <h3 class="custom-card__title">
+                                        <span>About the Department</span>
+                                    </h3>
+                                    <div class="card_body">
+                                        <p class="card-text mb-3">The Department of Chemical Engineering was established in 1963 with an undergraduate program in Chemical Engineering. 
+                                            The department currently runs undergraduate (B.Tech.), postgraduate (M.Tech.), and doctoral (Ph.D.) programs in Chemical Engineering. 
+                                            The department grew and set very high standards in teaching and cutting-edge research.
+                                            The department pursues research in the broad area of chemical engineering, such as liquid & solid waste management, green catalysis, 
+                                            sustainable energy, energy storage, microfluidics, rheology, computational fluid dynamics (CFD), theoretical and experimental fluid dynamics, 
+                                            heat and mass transfer, process design and intensification, process modeling & simulation, drug delivery, transport & separation processes,
+                                             process safety, carbon capture, utilization and storage (CCUS), biochemical and bioprocess engineering, sustainable processing, 
+                                             circular economy, water treatment. Over the years, the department has supported the local chemical industries. In addition to the large 
+                                             number of sponsored research and industrial consultancy projects, the department runs a center of excellence (CoE) sponsored by the 
+                                             Ministry of Chemicals & Fertilizers.  
+                                             <a href="dept.html">read more</b></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 mb-3">
+                        <div class="custom_card">
+                            <div>
+                                <h3 class="custom-card__title">
+                                    <span>Student Experience</span>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="custom_card">
+                            <h3 class="custom-card__title">
+                                <span>Past Recruiters</span>
+                            </h3>
+                            <div class="card_body">
+                                <div class="recruiter_list owl-carousel">
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/1.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/2.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/3.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/4.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/5.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/6.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/7.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/8.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/9.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/10.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/11.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/12.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/13.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/14.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/15.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/16.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/17.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/18.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/19.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/20.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/21.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/23.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/24.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/25.png" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="recruiter_list__img">
+                                        <img src="assets/images/rec/26.png" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+
+</html>

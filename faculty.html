@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Department of Chemical Engineering, IIT Roorkee</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <Link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63Q5V20FW2"></script>
+    <script>
+        // Function to load HTML content from file and inject into specified element
+        function includeHTML(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(elementId).innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+        // Load footer.html into footer element
+    includeHTML('header.html', 'header');
+    includeHTML('footer.html', 'footer');
+    </script>    
+</head>
+
+<body>
+    <header class="main-header" id="header"></header>
+    <div class="container">
+        <div class="bg-white">
+            <section class="inner-banner">
+                <h2 class="banner_title">Faculty</h2>
+                <ol class="banner__breadcrumbs" itemprop="breadcrumb">
+                    <li class="banner__breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">People</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">Faculty</a></li>
+                    <li class="banner__breadcrumb-item active" aria-current="page">Core</li>
+                </ol>
+            </section>
+            <div class="body-content p-3">
+                <section class="team-boxed">
+                    <h3 class="custom-card__title mb-4 ms-0"><span>Core Faculty</span></h3>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 item">
+                            <div class="custom_card box d-block">
+                                <a href="https://iitr.ac.in/Departments/Chemical%20Engineering%20Department/People/Faculty/100738.html">
+                                    <img src="assets/images/faculty/Anshu_Anand.png">
+                                    <h3 class="name">Anshu Anand</h3>
+                                </a>
+                                <p class="title">Associate Professor</p>
+                                <p class="description"><b>Areas of Interest: </b>Machine Learning, Computational physics, 
+                                    Particle Technology, Modeling the dynamics of particulate and powder systems, Multiphase flows, 
+                                    Fluidization</p>
+                                <p class="mb-1"><b>Email:</b> anshu.anand[at]ch.iitr.ac.in</p>
+                                <p class="mb-1"><b></b>
+                                    <a
+                                        href="https://iitr.ac.in/Departments/Chemical%20Engineering%20Department/People/Faculty/100738.html">Website</a>
+                                </p>
+                                <p class="mb-1"><b>Office:</b>  | <b>Phone:</b> +91-1332-284863
+									<!-- <br><b>Lab 1:</b>  | <b>Phone:</b>  -->
+                                </p>
+                            </div>
+                        </div>
+
+                   
+    <footer class="footer" id="footer"></footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
