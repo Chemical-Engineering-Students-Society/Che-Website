@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Programme</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <Link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63Q5V20FW2"></script>
+    <script>
+        // Function to load HTML content from file and inject into specified element
+        function includeHTML(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(elementId).innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+        // Load footer.html into footer element
+    includeHTML('header.html', 'header');
+    includeHTML('footer.html', 'footer');
+    </script>    
+</head>
+
+<body>
+    <header class="main-header" id="header"></header>
+    <div class="container">
+        <div class="bg-white">
+            <section class="inner-banner">
+                <h2 class="banner_title">U.G. Programme in Chemical Engineering</h2>
+                <ol class="banner__breadcrumbs" itemprop="breadcrumb">
+                    <li class="banner__breadcrumb-item"><a href="index.html">Academics</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">U.G. Programme</a></li>
+                </ol>
+            </section>
+            <div class="body-content p-3">
+                <section class="team-boxed">
+                    <p>The department offers four years Bachelor of Technology (B.Tech.) programme (comprising eight semesters). B.Tech. in Chemical Engineering at IIT Roorkee is one of the best-rated undergraduate engineering programmes in the country. The student’s intake to this programme is through Joint Entrance Examination (JEE). The B.Tech. program in Chemical Engineering begins with a foundation in mathematics, chemistry, and physics. These fundamentals are used to develop the analytical tools of chemical engineering - fluid mechanics, chemical thermodynamics, and chemical kinetics and the units of chemical processes and engineering such as chemical reactors, bio-reactors, distillation columns, and heat exchangers are analyzed with the above tools. The students are trained to design chemical processes by integrating process units with regard to economics, safety, and environmental impact. This program aims at preparing professionals for practice in traditional areas of chemical engineering, chemicals, polymers, petroleum, utilities, pharmaceuticals, computers, and information technology as well as emerging areas of biotechnology and electronic materials.
+                    </p>
+                </section>
+                <section class="team-boxed"></section>
+                <br>
+                    <div class="inner-banner" style="font-weight: bold;
+                    font-size: larger;">
+                        <div onclick="{window.location = 'https://acad.iitr.ac.in/Varsity/Academic_Programmes/UG_New/CH/Structure_CH.pdf'}">
+                            <div class="ui sub-heading ">
+                                Programme Structure (new, 2023-24 onward)
+                            </div>
+                            <div class="ui intro-text ">
+                    
+                            </div>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="listItem" onclick="{window.location = 'https://acad.iitr.ac.in/Varsity/Academic_Programmes/UG/CH/Structure_CH.pdf'}">
+                            <div class="ui sub-heading ">
+                                Programme Structure (old)
+                            </div>
+                            <div class="ui intro-text ">
+                    
+                            </div>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="listItem" onclick="{window.location = 'https://acad.iitr.ac.in/Varsity/Academic_Programmes/UG/CH/CH_PDF_syllabi.pdf'}">
+                            <div class="ui sub-heading ">
+                                Syllabus (old)
+                            </div>
+                            <div class="ui intro-text ">
+                    
+                            </div>
+                            <div class="divider"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

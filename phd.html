@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Ph.D) Programme</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <Link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63Q5V20FW2"></script>
+    <script>
+        // Function to load HTML content from file and inject into specified element
+        function includeHTML(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(elementId).innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+        // Load footer.html into footer element
+    includeHTML('header.html', 'header');
+    includeHTML('footer.html', 'footer');
+    </script>    
+</head>
+
+<body>
+    <header class="main-header" id="header"></header>
+    <div class="container">
+        <div class="bg-white">
+            <section class="inner-banner">
+                <h2 class="banner_title">Doctor Of Philosophy (Ph.D) Programme
+                </h2>
+                <ol class="banner__breadcrumbs" itemprop="breadcrumb">
+                    <li class="banner__breadcrumb-item"><a href="index.html">Academics</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">P.G. Programme</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">M.Tech Programme</a></li>
+                </ol>
+            </section>
+            <div class="body-content p-3">
+                <section class="team-boxed">
+                    <p>The doctor of philosophy (Ph.D.) programme is a flagship programme of the department's research. All Ph.D. scholars contribute in a significant way to the research activities of the department. Students after graduating with a Ph.D. degree from the department are expected to play leadership roles in research and development in various disciplines of chemical engineering either in industry or in academic institutes. The ph.D. programme comprises of course work for prescribed credits with a minimum prescribed performance and a research dissertation reflecting original and independently performed research contributions in the respective area. In the department of chemical engineering, all admitted students are required to successfully complete the Ph.D. qualifier examination after completing the prescribed course work. Ph.D. candidacy is confirmed only after the student has been declared successful in the qualifier examination. A ph.D. thesis is expected to result in high-quality publications in peer-reviewed international journals and conferences with a minimum of one journal and one conference article publication before the thesis can be submitted for review.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

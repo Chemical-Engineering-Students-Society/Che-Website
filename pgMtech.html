@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Tech Programme</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <Link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63Q5V20FW2"></script>
+    <script>
+        // Function to load HTML content from file and inject into specified element
+        function includeHTML(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(elementId).innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+        // Load footer.html into footer element
+    includeHTML('header.html', 'header');
+    includeHTML('footer.html', 'footer');
+    </script>    
+</head>
+
+<body>
+    <header class="main-header" id="header"></header>
+    <div class="container">
+        <div class="bg-white">
+            <section class="inner-banner">
+                <h2 class="banner_title">M.Tech Programme in Chemical Engineering</h2>
+                <ol class="banner__breadcrumbs" itemprop="breadcrumb">
+                    <li class="banner__breadcrumb-item"><a href="index.html">Academics</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">P.G. Programme</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">M.Tech Programme</a></li>
+                </ol>
+            </section>
+            <div class="body-content p-3">
+                <section class="team-boxed">
+                    <p>The department has vibrant postgraduate programmes with a strong focus on research and development. The programme is offered to students through GATE (Graduate Aptitude Test in Engineering). It comprises a full-time Postgraduate (Master of Technology) programme in Chemical engineering. Earlier the department used to offer two different specializations (Computer Aided Plant Design and Industrial Pollution abatement) in its Master’s programme. However, these courses were continued after 2017 and a new programme Master of Technology in Chemical Engineering was started in July 2018 for a duration of 2 years. This program offers a variety of specialized subjects which help students tackle and enhance their ability to solve some of today’s industrially relevant problems. The programme starts on the foundation of basic Chemical Engineering concepts and then proceeds to the advanced level with the introduction of some new concepts and subjects. The department fosters a dynamic, vibrant, and diverse research culture which encourages students to explore their areas of interest. A stand-out facility of the department is the High Computational Research Lab (HCRL) which houses supercomputers equipped with simulation packages like COMSOL, Aspen Plus, Openfoam, Gaussian, MATLAB, ANSYS, etc.
+                    </p>
+                </section>
+                <section class="team-boxed">
+                <br>
+                    <div class="inner-banner" style="font-weight: bold;
+                    font-size: larger;">
+                        <div onclick="{window.location = 'https://acad.iitr.ac.in/Varsity/Academic_Programmes/PG_New/CH/CH_PG_Structures_new.pdf'}">
+                            <div class="ui sub-heading ">
+                                Programme Structure
+                            </div>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="listItem" onclick="{window.location = 'https://acad.iitr.ac.in/Varsity/Academic_Programmes/PG_New/CH/M.Tech._CH_Syllabus_New.pdf'}">
+                            <div class="ui sub-heading ">
+                                Syllabus
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
