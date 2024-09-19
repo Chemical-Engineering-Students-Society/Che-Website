@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Department of Chemical Engineering, IIT Roorkee</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <Link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63Q5V20FW2"></script>
+    <script>
+        // Function to load HTML content from file and inject into specified element
+        function includeHTML(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById(elementId).innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+        // Load footer.html into footer element
+    includeHTML('header.html', 'header');
+    includeHTML('footer.html', 'footer');
+    </script>    
+</head>
+
+<body>
+    <header class="main-header" id="header"></header>
+    <div class="container">
+        <div class="bg-white">
+            <section class="inner-banner">
+                <h2 class="banner_title">Faculty Advisors</h2>
+                <ol class="banner__breadcrumbs" itemprop="breadcrumb">
+                    <li class="banner__breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">About Us</a></li>
+                    <li class="banner__breadcrumb-item"><a href="javascript:void(0)">Overview</a></li>
+                </ol>
+            </section>
+            <div class="body-content p-3">
+                <section class="team-boxed">
+                    <h3 class="custom-card__title mb-4 ms-0"><span>History</span></h3>
+                    <p>The Department of Chemical Engineering was established in 1963 with an Undergraduate programme in Chemical Engineering. A Master’s course in Equipment and Plant Design was initiated in 1970. Later on, two new Master’s courses namely Industrial Pollution Abatement and Advanced Transfer Processes were inducted. Subsequently, the specialisation of Equipment and Plant Design was redesigned, updated and re-christened as Computer Aided Process Plant Design. The Department was running three post-graduate programmes leading to M.Tech. (Chem.) degree with specialization in Computer Aided Process Plant Design, Industrial Pollution Abatement and Industrial Safety & Hazards Management. These 3 specializations have been merged into a single M.tech. programme in 2018. A five-year integrated programme on Hydrocarbon Engineering offering dual degree of B.Tech. (Chem. Engg.) and M.Tech. (Hydrocarbon Engineering) has been started from the session 2003-04. The Department offers high level research programme in diverse areas of Chemical Engineering. It has been providing consultancy to chemical and allied industries in several areas. The Department of Chemical Engineering at IIT, Roorkee is a comparatively smaller department, but offers large number of academic programmes with a large output of B.Tech and PG/Research students. It is the first department in the country to have started an innovative Masters programme in Industrial Pollution Abatement and Industrial Safety and Hazards Management. It is also the first department in the country to have started an integrated Dual Degree programme with Masters Programme in Hydrocarbon Engineering. The department has set very high standards in teaching and has engaged in useful and high level research exemplified by research papers in high impact peer-reviewed journals. Since the transformation of the University of Roorkee into an IIT, the Department has been engaged in the development of academic teaching and research infrastructure, creation of laboratories in analytical/instrumental analysis, modeling and simulation, safety and hydrocarbon engineering. The recent developments in sister disciplines and biological sciences have been imbedded in the curricular structure and are being adopted in our research activities.
+                    </p>
+                </section>
+                <section class="team-boxed"></section>
+                    <h3 class="custom-card__title mb-4 ms-0"><span>Brochure</span></h3>
+                    <div style="margin:0px -12px;padding:0px;text-decoration:none solid rgb(102, 102, 102);--bs-gutter-x: 1.5rem;--bs-gutter-y: 0;display:flex;flex-wrap:wrap;margin-top:0px;margin-right:-12px;margin-left:-12px;box-sizing:border-box;">
+                        <div style="flex: 0 0 auto;width: 33.3333%;margin:0px 0px 16px;padding:0px 12px;text-decoration:none solid rgb(102, 102, 102);margin-bottom:16px;flex-shrink:0;max-width:100%;padding-right:12px;padding-left:12px;margin-top:0px;box-sizing:border-box;">
+                            <a href="https://acad.iitr.ac.in/Varsity/Academic_Programmes/UG/CH/CH_PDF_syllabi.pdf" target="_blank" style="border:1px solid rgb(221, 221, 221);border-radius:6px;height:545.625px;display:flex;flex-direction:column;justify-content:space-between;text-align:justify;color:rgb(102, 102, 102);margin:0px;padding:0px;text-decoration:none solid rgb(102, 102, 102);box-sizing:border-box;">
+                                <div style="padding:12px;margin:0px;text-decoration:none solid rgb(102, 102, 102);box-sizing:border-box;">
+                                    <img src="https://imgv2-1-f.scribdassets.com/img/document/336689087/original/57f3c4ac06/1721194307?v=1" style="border-radius:6px;margin-bottom:10px;margin:0px 0px 10px;padding:0px;text-decoration:none solid rgb(102, 102, 102);max-width:100%;height: auto;vertical-align:middle;box-sizing:border-box;" />
+                                    <h5 style="font-size: 18px;margin:7px 0px;color:rgb(13, 110, 253);line-height:25.2px;padding:0px;text-decoration:none solid rgb(13, 110, 253);font-family:montserrat, sans-serif;text-align:left;margin-top:7px;margin-bottom:7px;font-weight:500;box-sizing:border-box;">
+                                        Brochure 2024</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
