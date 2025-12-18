@@ -1,1 +1,1 @@
-# iitr_che_website
+This is the Official website of ChESS- Chemical Engg Student Society of Chemical Department, IIT Roorkee.
